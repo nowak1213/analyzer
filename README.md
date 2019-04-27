@@ -17,9 +17,8 @@ Request parameters:
 
 Response json:
 1. analyzeDate-> date of analysation
-2. details
-2.1. firstPost -> date of first post
-2.2. lastPost -> date of last post
-2.3. totalPosts -> number of posts
-2.4. totalAcceptedPosts -> number of accepted posts
-2.5. avgScore -> result of division totalPosts/score
+2. firstPost -> date of first post
+3. lastPost -> date of last post
+4. totalPosts -> number of posts
+5. totalAcceptedPosts -> number of accepted posts
+6. avgScore -> result of division totalPosts/score
