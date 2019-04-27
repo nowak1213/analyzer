@@ -8,7 +8,7 @@ Steps to run
 4. mvn spring-boot:run
 5. Use web browser or curl to run your request
 
-You can also use docker to run application:
+You can also use docker to run application (you need to run "mvn clean install" command to build jar):
 1. docker pull nowak2809/analyzer-docker
 2. docker run -p 8080:8080 nowak2809/analyzer-docker
 
