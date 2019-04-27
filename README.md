@@ -16,13 +16,10 @@ Request parameters:
 1. url -> url to xml file ex: https://s3-eu-west-1.amazonaws.com/merapar-assessment/arabic-posts.xml
 
 Response json:
-{
-    "analyzeDate": "2019-04-27T14:43:21.877", -> date of analysation
-    "details": {
-        "firstPost": "2015-07-14T18:39:27.757", -> date of first post
-        "lastPost": "2015-09-14T12:46:52.053", -> date of last post
-        "totalPosts": 80, -> number of posts
-        "totalAcceptedPosts": 7, -> number of accepted posts
-        "avgScore": 2 -> result of division totalPosts/score
-    }
-}
+1. analyzeDate-> date of analysation
+2. details
+2.1. firstPost -> date of first post
+2.2. lastPost -> date of last post
+2.3. totalPosts -> number of posts
+2.4. totalAcceptedPosts -> number of accepted posts
+2.5. avgScore -> result of division totalPosts/score
